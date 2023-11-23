@@ -1,10 +1,16 @@
 package org.example.hibernate.entity;
 
+
 import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "Numb")
 public class Numb {
+
+
+    public Numb(){}
 
     @Id
     @Column(name = "id")
@@ -21,6 +27,8 @@ public class Numb {
         this.numb = numb;
         this.country = country;
     }
+
+
 
     public int getId() {
         return id;
