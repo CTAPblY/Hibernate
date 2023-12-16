@@ -6,6 +6,10 @@ import jakarta.persistence.*;
 @Table(name = "Numb")
 public class Numb {
 
+    public Numb() {
+
+    }
+
     @Id
     @Column(name = "id")
     private int id;

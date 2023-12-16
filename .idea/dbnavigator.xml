@@ -45,7 +45,7 @@
           <driver-library value="C:\Users\TOT CAMbIY\Downloads\H2JdbcDriver\h2-2.2.222.jar" />
           <driver value="org.h2.Driver" />
           <url-type value="CUSTOM" />
-          <url value="jdbc:h2:~/Hibernate" />
+          <url value="jdbc:h2:~/Numbers" />
           <type value="USER" />
           <user value="sa" />
           <deprecated-pwd value="" />

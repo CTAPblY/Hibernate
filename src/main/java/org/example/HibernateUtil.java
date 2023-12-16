@@ -4,27 +4,7 @@ import org.hibernate.boot.Metadata;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-import java.io.File;
-
 public class HibernateUtil {
-
-//     private static final SessionFactory sessionFactory = buildSessionFactory();
-//
-//     private static SessionFactory buildSessionFactory(){
-//           try {
-//               return new Configuration().configure(new File("src\\main\\resources\\hibernate.cfg.xml")).buildSessionFactory();
-//           }   catch (Throwable e) {
-//                    System.err.println("Initial sessionFactory creation failed" + e);
-//                    throw new ExceptionInInitializerError(e);
-//           }
-//     }
-//
-//     public static SessionFactory getSessionFactory(){return sessionFactory;}
-//
-//     public static void shutdown(){
-//          getSessionFactory().close();
-//     }
 
     private static StandardServiceRegistry registry;
     private static SessionFactory sessionFactory;
