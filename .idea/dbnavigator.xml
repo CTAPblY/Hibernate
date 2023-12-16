@@ -13,7 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="053ec2c4-4c4f-4304-8b27-283c5f692657">
-      <console name="Connection" type="STANDARD" schema="PUBLIC" session="Main"><![CDATA[select * from Numb;]]></console>
+      <console name="Connection" type="STANDARD" schema="PUBLIC" session="Main"><![CDATA[select * from NUMB;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -28,9 +28,15 @@
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$" connection-id="053ec2c4-4c4f-4304-8b27-283c5f692657" session-id="MAIN" current-schema="PUBLIC" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
@@ -42,7 +48,7 @@
           <config-type value="CUSTOM" />
           <database-version value="2.2" />
           <driver-source value="EXTERNAL" />
-          <driver-library value="C:\Users\TOT CAMbIY\Downloads\H2JdbcDriver\h2-2.2.222.jar" />
+          <driver-library value="$USER_HOME$/Загрузки/h2-2.2.222.jar" />
           <driver value="org.h2.Driver" />
           <url-type value="CUSTOM" />
           <url value="jdbc:h2:~/Numbers" />
